@@ -1,8 +1,4 @@
 import ifcopenshell
-from bonsai.bim.ifc import IfcStore
-
-# Get the IFC file using IfcStore
-file = IfcStore.get_file()
 
 # List of IFC types and their corresponding full names
 ifc_elements = [
