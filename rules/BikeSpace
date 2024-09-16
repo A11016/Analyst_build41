@@ -37,16 +37,16 @@ def calculate_final_count(proxy_type_counts, element_counts):
     return final_sum
 
 # Get the IFC file using IfcStore (assumes you are using BlenderBIM or a similar environment)
-file = IfcStore.get_file()
+# file = IfcStore.get_file()
 
 # Call the function to count types and elements related to "Furniture_Shelving-Storage"
-proxy_type_counts, element_counts = count_furniture_shelving_storage(file)
+# proxy_type_counts, element_counts = count_furniture_shelving_storage(file)
 
 # Print the count results
-print("Furniture_Shelving-Storage Type Counts:")
-for type_name, type_count in proxy_type_counts.items():
-    print(f'Type "{type_name}": {type_count} type definition(s), {element_counts[type_name]} element(s)')
+# print("Furniture_Shelving-Storage Type Counts:")
+# for type_name, type_count in proxy_type_counts.items():
+    # print(f'Type "{type_name}": {type_count} type definition(s), {element_counts[type_name]} element(s)')
 
-# Calculate and display the final sum
-final_count = calculate_final_count(proxy_type_counts, element_counts)
-print(f"\nFinal calculated sum of counts: {final_count}")
+ Calculate and display the final sum
+ final_count = calculate_final_count(proxy_type_counts, element_counts)
+ print(f"\nFinal calculated sum of counts: {final_count}")
