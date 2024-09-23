@@ -1,6 +1,5 @@
 import ifcopenshell
 from collections import defaultdict
-from bonsai.bim.ifc import IfcStore
 
 def count_furniture_shelving_storage(model):
     proxy_type_count = defaultdict(int)
