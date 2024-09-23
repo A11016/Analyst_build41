@@ -21,14 +21,15 @@ def count_furniture_shelving_storage(model):
     for type_name, count in element_count.items():
         multiplier = 6 if "enkelt" in type_name.lower() else 12
         final_sum += count * multiplier
+    
+    result = print(f"\nFinal calculated sum of counts: {final_sum}")
 
-    return final_sum
+    return result
 
 # Get the IFC file using IfcStore
 model = IfcStore.get_file()
 
 # Call the function and get the final count
-final_count = count_furniture_shelving_storage(model)
+count_furniture_shelving_storage(model)
 
-# Print the final count outside the function
-print(f"\nFinal calculated sum of counts: {final_count}")
+
