@@ -25,10 +25,4 @@ def count_furniture_shelving_storage(model):
 
     return result
 
-# Get the IFC file using IfcStore
-model = IfcStore.get_file()
-
-# Call the function and get the final count
-count_furniture_shelving_storage(model)
-
 
