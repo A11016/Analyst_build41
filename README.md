@@ -5,8 +5,7 @@
 # The claim that is being checked: Amount of parking spaces for bikes
 
 # Place where claim was found: 
-  # In report: CES_BLD_24_06_PM_2
-    # Page: 9, section 4.1 General requirements
+  # In report: CES_BLD_24_06_PM_2                                                                                       Page: 9, section 4.1 General requirements
 
 # Description of Bikespace.py script: 
   # In the report, a claim was made that there should be a minimum of 1006 bike parking spaces, and that there is 1212.
