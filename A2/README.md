@@ -39,6 +39,10 @@ The closest to the claim is use case 02 - Cost Estimation
 ### •	Produce a BPMN drawing for your chosen use case. link to this so we can see it in your markdown file. To do this you will have to save it as an SVG, please also save the BPMN with it. You can use this online tool to create a BPMN file.
 
 Diagram
+![SVG_A2c](https://fwtbbmf399.execute-api.us-east-1.amazonaws.com/Prod/svg?source=https://github.com/A11016/BIManalyst_g_41/blob/main/A2/IMG/SVG_A2c&name=sample.svg)
+
+Forsøg
+![Alt text](SVG_A2c)
 
 Scope:
 •	From the ‘whole use case’ identify where a new script / function / tool is needed. Highlight this in your BPMN diagram. Show this clearly in a new SVG diagram. You may wish to change the SVG diagram, you can use inkscape for this task.
