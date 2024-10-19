@@ -10,6 +10,7 @@
 
 **Claim:** Cost estimation of facades (Structural):
 
+Appendix of cost estimation in the report
  ![Claim](https://github.com/user-attachments/assets/e06ca37e-38bf-4d04-9617-c1fc3579b36e)
 
 
