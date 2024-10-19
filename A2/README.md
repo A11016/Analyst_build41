@@ -1,11 +1,11 @@
-## A2a
+## A2a About Your Group
 **Group Coding level total:** 2
 
 **Focus Area:** Build
 
 **Role:** Analysts
 
-## A2b
+## A2b Identify Claim
 **Building** #2411
 
 **Claim:** Cost estimation of facades (Structural):
@@ -16,8 +16,7 @@
 The purpose of the claim is to estimate the cost of the façade of the building by estimating the area/amount of the façade surface and relate it to the m2 unit price. From this information it will be possible to estimate the collective price of the façade elements. 
 It is important because money matters. A healthy project has a healthy cost, and therefore this claim ensures that the correct amount was budgeted, not less and especially not more.
 
-## A2c
-## Use Case:
+## A2c Use Case
 ### •	How would you check this claim?
 By verifying the number of façade elements and area of these façade elements using meshes in blender, we can find out the cost associated with the facade construction. This can then be matched to the cost in the report appendix.
 
@@ -41,27 +40,44 @@ The closest to the claim is use case 02 - Cost Estimation
 Diagram
 ![diagram (1)](https://github.com/user-attachments/assets/bd6d1294-9325-4f97-8cdc-7db72271a13b)
 
-
-### Scope:
-**•	From the ‘whole use case’ identify where a new script / function / tool is needed. Highlight this in your BPMN diagram. Show this clearly in a new SVG diagram. You may wish to change the SVG diagram, you can use inkscape for this task.**
+## A2d Scope
+### •	From the ‘whole use case’ identify where a new script / function / tool is needed. Highlight this in your BPMN diagram. Show this clearly in a new SVG diagram. You may wish to change the SVG diagram, you can use inkscape for this task.
 ![diagram coloured](https://github.com/user-attachments/assets/d5bb4263-bfd1-4aad-91b4-56f8b8b1a9a7)
 
 
-Tool idea:
-•	Describe in words your idea for your own OpenBIM ifcOpenShell Tool in Python.
+## A2e Tool idea
+### •	Describe in words your idea for your own OpenBIM ifcOpenShell Tool in Python.
 The idea is for the Python tool to ensure that the cost estimates that were made early in a design process are correct, by running through the BIM model. The tool ensures that if any changes or mistakes are made, that they can be outlined, and perhaps prevent a future problem.
-•	What is the business and societal value of your tool?
+
+### •	What is the business and societal value of your tool?
 The value of the tool can be measured directly in monetary value, as the cost estimation can hinder an unlucky situation were calculations could be made wrongfully or faulty design.
-•	Produce a BPMN diagram to summarise your idea. Save this in a folder in your repository along with an SVG of the disagram and embed the SVG in the Markdown as an image.
 
-Information requirement:
-•	Identify what information you need to extract from the model
-o	Where is this in IFC?
-The information needed is IfcElementType of the facades, so that the different types of façade will be included in the correct amount. 
-o	Is it in the model?
-Yes, it is in the model
-o	Do you know how to get it in ifcOpenShell?
+### •	Produce a BPMN diagram to summarise your idea. Save this in a folder in your repository along with an SVG of the diagram and embed the SVG in the Markdown as an image.
+![diagram Tool](https://github.com/user-attachments/assets/9a06e1b4-e8e7-413f-aba6-b626682c62e5)
+
+
+## A2f Information requirement:
+### •	Identify what information you need to extract from the model
+**o	Where is this in IFC?**
+
+The information needed is defining the IfcElementType of the facades, so that the different types of façade will be included in the correct amount. Then to extract the relevant IfcPropertySet which would be the area of each facade.
+
+**o	Is it in the model?**
+
+Yes, it is in the model.
+
+**o	Do you know how to get it in ifcOpenShell?**
+
 No
-o	What will you need to learn to do this? [Enrolled students only]: add to this excel in teams
-Identify Software:
 
+**o	What will you need to learn to do this? [Enrolled students only]: add to this excel in teams
+Identify Software:**
+Added
+
+## A2g Identify Appropriate Software License
+### •	What software licence will you choose for your project?
+
+
+| License        | License Keyword |
+| ------------- |:-------------:|
+| GNU General Public License v3.0      | GPL-3.0 |
