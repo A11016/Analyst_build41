@@ -42,8 +42,9 @@ Diagram
 ![diagram (1)](https://github.com/user-attachments/assets/bd6d1294-9325-4f97-8cdc-7db72271a13b)
 
 
-Scope:
-•	From the ‘whole use case’ identify where a new script / function / tool is needed. Highlight this in your BPMN diagram. Show this clearly in a new SVG diagram. You may wish to change the SVG diagram, you can use inkscape for this task.
+### Scope:
+**•	From the ‘whole use case’ identify where a new script / function / tool is needed. Highlight this in your BPMN diagram. Show this clearly in a new SVG diagram. You may wish to change the SVG diagram, you can use inkscape for this task.**
+![diagram coloured](https://github.com/user-attachments/assets/d5bb4263-bfd1-4aad-91b4-56f8b8b1a9a7)
 
 
 Tool idea:
