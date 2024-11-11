@@ -26,7 +26,7 @@ The tool achieves its purpose by firstly looping through the model, identifying 
 2. The tool would also be useful in the stage where the subcontractor is in the process of execution, where the cost can be checked with the initial estimation. That would be the C-stage ‘project execution’.
 
 **Which subjects might use it?**
-Cost estimation is primarily the concern of the build subject, which would use it.
+Cost estimation is primarily the concern of the build subject, which would use the tool.
 
 **What information is required in the model for your tool to work?**
 * The model must be the correct model including façade elements, and for example not being structural model.
