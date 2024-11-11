@@ -1,0 +1,18 @@
+{
+  "file": {
+    "type": "IFC",
+    "requirements": {
+      "IfcCurtainWall": true,
+      "property_sets": {
+        "GeneralInformation": true,
+        "Geometry": {
+          "Height": true,
+          "Width": true,
+          "Thickness": true,
+          "Area": true
+        },
+        "MaterialProperties": true
+      }
+    }
+  }
+}
