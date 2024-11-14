@@ -4,6 +4,7 @@ import ifcopenshell.util.element
 # Insert the file path
 file_path = (r'[insert file path here]')
 
+from .A3 import cost_estimation_of_facade_elements
 
 # Load the IFC file
 
