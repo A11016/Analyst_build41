@@ -7,7 +7,7 @@ The tool is designed to enable cost estimation for facade elements, by using inf
 
 
 ## Tool Overview: How It Works ##
-The tool designed is a code that can be run on python. The code runs through an IFC-file to check extract the relevant data, so the applicable IFC-file should also be available on the computer running the tool.
+The tool designed is a code that can be run on python. The code runs through an IFC-file to check and extract the relevant data. The tool requires that the applicable IFC-file should be available on the computer running the tool, knowing the file path.
 
 ### Code Explanation and Analysis ###
 This tool is designed to estimate the cost of facade elements (specifically IfcCurtainWall elements) in an IFC file. It looks for certain facade walls based on a name search phrase ("Basic Wall - Ext. Wall"), retrieves their surface area from the model, and calculates the total cost based on a given unit cost.
@@ -20,7 +20,7 @@ It is necessary to pip install ifcopenshell in python
 **2. Function Definition:** The function accepts two parameters; model (IFC model) and unit_cost (Cost per unit area)
 ![image](https://github.com/user-attachments/assets/068cb7de-69c2-4b02-8b90-8334b159d2c1)
 
-**3. Variable Initialization:** element_count (Amount of IfcCurtainWall), total_surface_area (Accumulate the surface area of all matching walls), search_phrase (String used to identify walls with the name containing phrase)
+**3. Variable Initialization:** element_count (Number of IfcCurtainWall), total_surface_area (Accumulate the surface area of all matching walls), search_phrase (String used to identify walls with the name containing phrase)
 ![image](https://github.com/user-attachments/assets/14515a24-1177-4f6c-9701-1049624c489c)
 
 **4. Iterating Over The Walls:** This loop goes through all the elements of type IfcCurtainWall in the IFC model. IfcCurtainWall represents a type of wall, typically used for building facades.
@@ -60,3 +60,32 @@ Business Process Model and Notation (BPMN) diagram, outlines the design process 
 **5. Output:** Collect the data and generate a project report to complete the process.
 
 ## Prequisites for The Tool To Function
+The IDS (Information Delivery Specification) of the tool is used to define specific requirements or conditions that must be met when processing an IFC file. The following IDS includes a set of conditions or criteria that the IFC file must fulfill, for it to be considered compliant with the requirements of the tool:
+![image](https://github.com/user-attachments/assets/f7a4ab44-5f47-4413-bc85-aa80a1650753)
+
+To test whether the IFC file complies with the tool following Python Script is developed to ensure that it complies with the IDS:
+![image](https://github.com/user-attachments/assets/835f8ab8-a061-46be-bf03-7180fdecd4a1)
+
+The code determines if the IFC file complies with the IDS
+
+Examples of IFC files tested for IDS:
+
+**..Model 6**
+
+**..Model 11**
+
+For the tool to work, it is necessary that the elements are assigned with property sets as described in the IDS. It is also necessary to know exactly which Ifc element the façade is defined as, and moreover know the specific search phrase for the element that the cost estimation is intended to. Lastly, the unit cost of the element should be known and defined as a variable in the function.
+
+## Future Development Opportunities and Limitations ##
+
+### Limitations ###
+
+•	The quality of cost estimations relies heavily on the accuracy and completeness of the IFC model. If the model lacks detailed information about materials, quantities, or classifications, or if the inputs do not follow the same units of measurement, the tool's outputs may be less reliable.  
+•	As a standalone tool, it may not fully support real-time collaboration between team members. Advanced integration with collaborative BIM platforms like BIM 360 or Trimble Connect would be necessary for enhanced team workflows.
+
+### Future Development Potential ###
+•	It is possible to extend the functionality of the tool to estimate the cost of any other element in an Ifc model, if it complies with the requirements. For instance, the cost can be estimated for columns, as long as the ifc element is changed, the cost unit is known and the property set extracted is volume, if that is the requirements to determine the cost.  
+•	Incorporating rules to validate IFC data will improve the accuracy of cost estimates. For example, the tool could automatically identify missing material properties (like the code used in our pre-requisites) or even enrich models using external databases.  
+•	Future iterations could integrate life-cycle costing and environmental impact assessments, providing users with not only cost estimations but also sustainability insights.  
+•	Incorporating interactive visualizations, such as color-coded cost heatmaps on the 3D model, would improve usability and help stakeholders quickly identify high-cost areas for optimization.  
+•	Integration with dynamic cost databases, such as regional pricing libraries, would allow real-time updates to material and labor costs, ensuring estimates reflect current market conditions. Future versions of the tool could incorporate machine learning algorithms or AI to predict costs based on historical project data and market trends.
