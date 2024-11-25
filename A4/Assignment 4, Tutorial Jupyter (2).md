@@ -4,6 +4,16 @@
 The tool is designed to enable cost estimation for facade elements, by using information from IFC-file for precise calculations. It serves as a bridge between advanced Building Information Modeling (BIM) workflows and real-time cost analysis.
 
 ### Learning Objectives ###
+1.	IFC Data Manipulation and OpenBIM Analysis
+Aligning with the objective to "identify, locate, and extract information from an IFC model in OpenBIM tools," this tool demonstrates the practical application of these concepts by utilizing Python and IfcOpenShell to process and analyze IFC data.
+2.	Development of OpenBIM Tools
+This project supports the learning objective to "create, fork, branch, and collaborate on the development of an OpenBIM tool in Python." Developing a cost estimation tool showcases both programming proficiency and domain-specific expertise.
+3.	BIM Challenges and Use Case Identification
+By addressing cost estimation, a key challenge in BIM workflows, the tool fulfills the objective to "identify BIM challenges by analyzing OpenBIM data" and "model a BIM use case based on identified challenges."
+4.	Standards and Circularity
+Adhering to OpenBIM principles, the tool aligns with the learning objective to "apply appropriate OpenBIM standards and guidelines to support open and FAIR data, tools, and processes." Its design emphasizes data interoperability and reuse.
+5.	Teaching and Reflection
+The tool can also be used as a teaching aid, enabling the developer to "teach an advanced BIM concept" related to cost estimation and data analysis, promoting peer learning and feedback. The tool embodies the core principles of the course: enhancing OpenBIM capabilities, supporting standardization, and promoting innovative applications
 
 
 ## Tool Overview: How It Works ##
