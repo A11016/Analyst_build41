@@ -1,4 +1,4 @@
-# How To Extract The Correct Psets - Tutorial (Group 41) #
+# Cost Estimation with IfcPsets - Tutorial (Group 41) #
 
 ## Purpose of The Tool ##
 The tool is designed to enable cost estimation for facade elements, by using information from IFC-file for precise calculations. It serves as a bridge between advanced Building Information Modeling (BIM) workflows and real-time cost analysis.
