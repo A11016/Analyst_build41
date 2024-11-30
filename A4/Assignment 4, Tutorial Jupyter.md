@@ -1,5 +1,7 @@
 # Cost Estimation with IfcPsets - Tutorial (Group 41) #
 
+Note, the Jupyter Notebook has been used in this markdown file, so these are the two formats used for this assignment.
+
 ## Purpose of The Tool ##
 The tool is designed to enable cost estimation for facade elements, by using information from IFC-file for precise calculations. It serves as a bridge between advanced Building Information Modeling (BIM) workflows and real-time cost analysis.
 
