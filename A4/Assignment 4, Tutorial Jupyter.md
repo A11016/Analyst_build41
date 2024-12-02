@@ -2,7 +2,11 @@
 
 Note, the Jupyter Notebook has been used in this markdown file, so these are the two formats used for this assignment.
 
-## Purpose of The Tool ##
+### Brief Title and Summary ###
+**Title:** Estimating the cost of facadeelements through IfcPsets  
+**Summary:** This tool has the purpose of estimating the costs of facadeelements by looping through all the relevant elements in the Ifc file, and extracting the relevant IfcPsets, being the surface area, then multiplying with the cost of 1 unit of m2.
+
+### Purpose of The Tool ###
 The tool is designed to enable cost estimation for facade elements, by using information from IFC-file for precise calculations. It serves as a bridge between advanced Building Information Modeling (BIM) workflows and real-time cost analysis.
 
 ### Learning Objectives ###
