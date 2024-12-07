@@ -30,14 +30,14 @@
 | ------------- |:-------------:|
 | S214307        | Still in my 1st semester of my master, so I am not sure if the thesis will have any relevance to OpenBIM directly. But the knowledge can be used, especially if the thesis consists of data handling or collaboration between several subjects. |
 | S214320      |  |
-| S222490      | No |
+| S222490      | Though my thesis is not going to be related to this, the course enabled thorough investigation through OpenBIM models which is likely an essential transferrable skill |
 
 **•	Would you have preferred to have been given less choice in the use cases?**  
 | Student        | Answer |
 | ------------- |:-------------:|
 | S214307        | The use case flexibility is nice in case a group comes up with a unique use case or develops a new use case. If not, then it is great with examples to be inspired by. This approach gives the possibility of being inspired into a more comfortable and simple use case, and also the possibility to be creative. |
 | S214320      |  |
-| S222490      | No |
+| S222490      | No. The use cases were well defined and diverse, incorporating a complete and fool proof perspective for any construction project |
 
 **•	Was the number of tools for the course ok - should we have more or less? - if so which ones would you leave out?**  
 | Student        | Answer |
@@ -74,12 +74,12 @@ Overall, the tool addresses the use case that has been identified.
 | ------------- |:-------------:|
 | S214307        | Yes, it is likely, both due to the increased focus and use of OpenBIM in the industry, but also as an upcoming engineer with the knowledge from e.g. a course like Advanced BIM, the contribution to change traditional unpractical work routines can be implemented by us. |
 | S214320      |  |
-| S222490      | Extremely likely |
+| S222490      | Extremely likely. Future prospects for me lie in Indoor Environment, Building systems as well as material analysis. Working on developing new solutions or optimizing existing ones would be invaluably boosted by the use of OpenBIM. |
 
 **•	Conclude the journey through A1-A5**  
 | Student        | Answer |
 | ------------- |:-------------:|
 | S214307        | The journey through this course and especially the assignments A1-A5 have been very giving. The initial assignments A1 and A2 laid the foundation of how to work with the later assignments. Developing the tool later on for A3, imposed a challenge to implement the information learned from the lectures and the learning material, and cross-checking with A2 if the tool was aligning with the objective defined from A2. A4 was a great way to present the tool and get a review from an external perspective that was perhaps working on a different use case and had other struggles or solutions, that was shared. |
 | S214320      |  |
-| S222490      |  |
+| S222490      | The journey through the Advanced BIM course assignments, from A1 to A5, represents an incredible learning curve. Starting with understanding foundational BIM processes and progressing to using tools like IfcOpenShell for model analysis, the course bridges theoretical knowledge with practical application. I gained exposure to OpenBIM principles, scripting, and problem-solving. By the final assignment, there’s a clear sense of growth—not just in technical expertise, like data extraction and visualization, but also in collaborative skills through platforms like GitHub (new for me), fostering readiness for professional challenges. Overall, the course is well-balanced between providing students with relevant academic information and offering them the space to exercise real-life use cases using this information. |
 
